@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+
+    display: grid;
+}
+.content{
+    padding: 120px;
+}
+.header{
+    padding-left: 15px;
+    padding-right: 15px;
+   
+  
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    font-weight: lighter;
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.panel-body{
+    background-color: #aad6b9;
+    border-radius: 10px;
+}
+
+.panel-body:hover{
+  
+    border-radius: 30px;
+    box-shadow: 0 1.2rem 3rem 0.5rem #414141;
+}
+
+.panel{
+    border-radius: 10px;
+ 
+}
+
+.panel:hover{
+    border-radius: 30px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 35px;
+}
+
+#footer{
+    background-color: #202020;
+    color: #aad6b9;
+    padding: 10px;
+    padding-left: 20px;
+}
